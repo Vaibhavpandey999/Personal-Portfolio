@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="description" content="Vaibhav Pandey — software engineer focused on backend systems, Java, Spring Boot, APIs, and scalable applications." />
+  <title>Vaibhav Pandey | Software Engineer</title>
+  <style>
+    :root{--bg:#0b1020;--panel:#111a2e;--panel2:#0e1729;--text:#edf2ff;--muted:#a2aec6;--accent:#7c9cff;--accent2:#52d6c7;--line:rgba(180,200,255,.15);--shadow:0 20px 60px rgba(0,0,0,.25)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:radial-gradient(ellipse at 80% -10%,rgba(79,111,210,.24),transparent 38%),var(--bg);color:var(--text);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit;text-decoration:none}a:hover{color:var(--accent2)}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:20;backdrop-filter:blur(18px);background:rgba(11,16,32,.8);border-bottom:1px solid var(--line)}.nav-inner{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:800;letter-spacing:-.04em;font-size:1.2rem}.brand span{color:var(--accent2)}nav{display:flex;gap:25px;align-items:center}nav a{font-size:.9rem;color:var(--muted)}nav a:hover{color:var(--text)}.menu{display:none}
+    .hero{min-height:600px;display:grid;grid-template-columns:1.35fr .65fr;align-items:center;gap:55px;padding:90px 0 84px}.eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:99px;padding:7px 13px;color:var(--accent2);font-size:.82rem;letter-spacing:.02em;background:rgba(17,26,46,.65)}.dot{width:8px;height:8px;background:var(--accent2);border-radius:50%;box-shadow:0 0 15px var(--accent2)}h1{font-size:clamp(2.8rem,6.2vw,5.3rem);line-height:1.02;letter-spacing:-.065em;margin:24px 0 20px}h1 .gradient{background:linear-gradient(100deg,#a4b9ff,var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}.lead{max-width:650px;color:var(--muted);font-size:1.13rem}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:12px;padding:12px 18px;font-weight:700;border:1px solid var(--line);transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px)}.primary{background:linear-gradient(100deg,#7c9cff,#78dacc);color:#091122;border:0}.secondary{background:rgba(255,255,255,.03)}.hero-card{border:1px solid var(--line);border-radius:26px;padding:28px;background:linear-gradient(145deg,rgba(25,38,66,.94),rgba(14,23,41,.93));box-shadow:var(--shadow);position:relative;overflow:hidden}.hero-card:before{content:"";position:absolute;width:180px;height:180px;border-radius:50%;background:rgba(124,156,255,.14);filter:blur(2px);top:-80px;right:-65px}.avatar{width:72px;height:72px;border-radius:22px;display:grid;place-items:center;font-size:1.6rem;font-weight:800;background:linear-gradient(135deg,#7c9cff,#52d6c7);color:#091122;position:relative}.hero-card h2{font-size:1.35rem;margin:20px 0 2px}.role{color:var(--muted);font-size:.94rem}.quick{border-top:1px solid var(--line);margin-top:22px;padding-top:16px;display:grid;gap:11px;color:var(--muted);font-size:.92rem}.quick div{display:flex;gap:10px;align-items:center}.quick b{color:var(--text);font-weight:600}
+    section{padding:74px 0}.section-head{margin-bottom:30px}.kicker{color:var(--accent2);font-weight:750;text-transform:uppercase;font-size:.76rem;letter-spacing:.16em}.section-title{font-size:clamp(1.9rem,4vw,2.7rem);letter-spacing:-.045em;line-height:1.15;margin:8px 0 10px}.section-intro{color:var(--muted);max-width:700px;margin:0}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.stat{border:1px solid var(--line);border-radius:18px;padding:23px;background:rgba(17,26,46,.7)}.stat strong{display:block;font-size:2rem;letter-spacing:-.05em}.stat span{color:var(--muted);font-size:.9rem}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.card{border:1px solid var(--line);border-radius:20px;padding:24px;background:linear-gradient(145deg,rgba(17,26,46,.9),rgba(14,23,41,.86));transition:border-color .2s,transform .2s}.card:hover{transform:translateY(-3px);border-color:rgba(124,156,255,.55)}.card-top{display:flex;align-items:center;justify-content:space-between;gap:12px}.symbol{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;background:rgba(124,156,255,.14);color:#b8c9ff;font-weight:800}.tag{font-size:.73rem;color:var(--accent2);border:1px solid rgba(82,214,199,.25);background:rgba(82,214,199,.07);padding:4px 9px;border-radius:99px;white-space:nowrap}.card h3{font-size:1.18rem;margin:18px 0 8px}.card p{margin:0;color:var(--muted);font-size:.95rem}.tags{display:flex;gap:7px;flex-wrap:wrap;margin:18px 0 0}.tags span{font-size:.75rem;color:#c0cae0;background:rgba(255,255,255,.05);padding:5px 9px;border-radius:7px}.card-link{display:inline-flex;margin-top:18px;color:var(--accent);font-size:.9rem;font-weight:700}
+    .timeline{display:grid;gap:16px}.job{display:grid;grid-template-columns:190px 1fr;gap:25px;padding:24px;border:1px solid var(--line);background:rgba(17,26,46,.62);border-radius:18px}.job-date{color:var(--accent2);font-size:.88rem;font-weight:700}.job h3{margin:0;font-size:1.14rem}.job-company{color:var(--muted);margin:2px 0 10px}.job ul{padding-left:19px;margin:8px 0 0;color:var(--muted)}.job li+li{margin-top:6px}
+    .about-layout{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:start}.about-copy p{color:var(--muted)}.skills{display:grid;gap:17px}.skill-group h3{font-size:.92rem;margin:0 0 9px}.skill-pills{display:flex;flex-wrap:wrap;gap:8px}.skill-pills span{padding:7px 11px;border:1px solid var(--line);border-radius:9px;color:#c8d2e8;background:rgba(255,255,255,.025);font-size:.83rem}
+    .contact-box{border:1px solid var(--line);border-radius:26px;padding:clamp(25px,5vw,48px);background:radial-gradient(circle at 100% 0,rgba(82,214,199,.1),transparent 42%),linear-gradient(145deg,rgba(24,36,62,.9),rgba(14,23,41,.95));display:flex;justify-content:space-between;gap:30px;align-items:center}.contact-box p{color:var(--muted);max-width:650px;margin-bottom:0}.contact-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.footer{border-top:1px solid var(--line);padding:24px 0 32px;color:var(--muted);font-size:.85rem}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:800px){nav{gap:14px}.hero{grid-template-columns:1fr;gap:35px;min-height:auto;padding:65px 0}.hero-card{max-width:520px}.about-layout{grid-template-columns:1fr}.contact-box{align-items:flex-start;flex-direction:column}}@media(max-width:600px){.wrap{width:min(100% - 28px,1120px)}.nav-inner{height:64px}nav{display:none;position:absolute;top:64px;left:0;right:0;padding:18px 20px;background:#0d1426;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.nav.open nav{display:flex}.menu{display:inline-flex;background:transparent;border:1px solid var(--line);border-radius:9px;color:var(--text);padding:7px 10px}.hero{padding:50px 0 45px}h1{font-size:3rem}.stats{grid-template-columns:1fr}.grid{grid-template-columns:1fr}section{padding:55px 0}.job{grid-template-columns:1fr;gap:8px}.card{padding:21px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="nav" id="top">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top">VP<span>.</span></a>
+      <button class="menu" id="menu" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="wrap hero">
+      <div>
+        <div class="eyebrow"><span class="dot"></span> Open to building impactful software</div>
+        <h1>Hi, I’m Vaibhav.<br/><span class="gradient">I build reliable software.</span></h1>
+        <p class="lead">Software engineer focused on backend development, Java, Spring Boot, APIs, and designing maintainable systems. I enjoy turning complex problems into clear, dependable solutions.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">Explore my work ↘</a>
+          <a class="btn secondary" href="mailto:vaibhavpandey999@gmail.com">Get in touch ↗</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <div class="avatar" aria-hidden="true">VP</div>
+        <h2>Vaibhav Pandey</h2>
+        <div class="role">Software Engineer · Backend Development</div>
+        <div class="quick">
+          <div>⌖ <span><b>Based in</b> Hyderabad, India</span></div>
+          <div>⌘ <span><b>Focus</b> Java · Spring Boot · APIs</span></div>
+          <div>↗ <span><b>GitHub</b> <a href="https://github.com/Vaibhavpandey999" target="_blank" rel="noreferrer">Vaibhavpandey999</a></span></div>
+          <div>✉ <span><b>Email</b> <a href="mailto:vaibhavpandey999@gmail.com">vaibhavpandey999@gmail.com</a></span></div>
+        </div>
+      </aside>
+    </div>
+
+    <section aria-label="Highlights">
+      <div class="wrap">
+        <div class="stats">
+          <div class="stat"><strong>4+ years</strong><span>Software engineering experience</span></div>
+          <div class="stat"><strong>~45%</strong><span>Reported P95 latency reduction</span></div>
+          <div class="stat"><strong>100K+</strong><span>Records handled in data workflows</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap about-layout">
+        <div class="about-copy">
+          <div class="section-head"><div class="kicker">A little about me</div><h2 class="section-title">Practical engineering.<br/>Thoughtful execution.</h2></div>
+          <p>I’m a software engineer who enjoys working across APIs, backend services, data workflows, and application architecture. My approach is to understand the real problem first, then ship solutions that are readable, testable, and useful.</p>
+          <p>I value collaborative teams, continuous learning, and engineering decisions that balance performance with maintainability.</p>
+          <div class="actions"><a class="btn secondary" href="https://github.com/Vaibhavpandey999" target="_blank" rel="noreferrer">View GitHub ↗</a><a class="btn secondary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+        </div>
+        <div class="skills" id="skills">
+          <div class="skill-group"><h3>Languages</h3><div class="skill-pills"><span>Java</span><span>SQL</span><span>JavaScript</span><span>TypeScript</span></div></div>
+          <div class="skill-group"><h3>Backend & APIs</h3><div class="skill-pills"><span>Spring Boot</span><span>REST APIs</span><span>Microservices</span><span>Hibernate / JPA</span></div></div>
+          <div class="skill-group"><h3>Data & Infrastructure</h3><div class="skill-pills"><span>PostgreSQL</span><span>MySQL</span><span>Redis</span><span>Kafka</span><span>Docker</span><span>Git</span></div></div>
+          <div class="skill-group"><h3>Engineering</h3><div class="skill-pills"><span>System Design</span><span>Low-Level Design</span><span>Performance Tuning</span><span>Testing</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker">Selected work</div><h2 class="section-title">Projects I’ve worked on</h2><p class="section-intro">A selection of repositories covering application development, problem solving, and software design.</p></div>
+        <div class="grid">
+          <article class="card">
+            <div class="card-top"><div class="symbol">01</div><span class="tag">Application</span></div>
+            <h3>UOHZONE</h3><p>A project repository for an application-focused build. Explore the source to see its implementation and structure.</p>
+            <div class="tags"><span>Application Development</span><span>GitHub</span></div>
+            <a class="card-link" href="https://github.com/Vaibhavpandey999/UOHZONE" target="_blank" rel="noreferrer">View repository ↗</a>
+          </article>
+          <article class="card">
+            <div class="card-top"><div class="symbol">02</div><span class="tag">Full stack</span></div>
+            <h3>CRUD App — Spring Boot & Angular</h3><p>A CRUD application exploring backend services and a frontend client, with Java/Spring Boot and Angular in the stack.</p>
+            <div class="tags"><span>Spring Boot</span><span>Angular</span><span>REST</span></div>
+            <a class="card-link" href="https://github.com/Vaibhavpandey999/CRUDAPP-using-Spring-Boot-Angular" target="_blank" rel="noreferrer">View repository ↗</a>
+          </article>
+          <article class="card">
+            <div class="card-top"><div class="symbol">03</div><span class="tag">Problem solving</span></div>
+            <h3>LeetCode Solutions</h3><p>A collection of coding practice and algorithm solutions demonstrating consistent problem-solving practice.</p>
+            <div class="tags"><span>Java</span><span>Algorithms</span><span>Data Structures</span></div>
+            <a class="card-link" href="https://github.com/Vaibhavpandey999/LeetCode-Solutions" target="_blank" rel="noreferrer">View repository ↗</a>
+          </article>
+          <article class="card">
+            <div class="card-top"><div class="symbol">04</div><span class="tag">Software design</span></div>
+            <h3>Low-Level Design Problems</h3><p>Practice and examples centered on object-oriented design, reusable components, and modeling common systems.</p>
+            <div class="tags"><span>OOP</span><span>Design Patterns</span><span>Java</span></div>
+            <a class="card-link" href="https://github.com/Vaibhavpandey999/Low-Level-Design-Problems" target="_blank" rel="noreferrer">View repository ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker">Career</div><h2 class="section-title">Experience</h2><p class="section-intro">Backend engineering, data-intensive systems, and performance-minded implementation.</p></div>
+        <div class="timeline">
+          <article class="job"><div class="job-date">Professional experience</div><div><h3>Software Engineer</h3><div class="job-company">FactSet</div><ul><li>Contribute to software systems with a focus on reliable services, code quality, and maintainable solutions.</li><li>Work with engineering teammates to troubleshoot issues and improve implementation quality.</li></ul></div></article>
+          <article class="job"><div class="job-date">Professional experience</div><div><h3>Software Engineer</h3><div class="job-company">Jocata</div><ul><li>Worked on backend application development and data-focused workflows.</li><li>Focused on API development, performance improvements, and dependable application behavior.</li></ul></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="contact-box">
+          <div><div class="kicker">Let’s connect</div><h2 class="section-title">Have a problem worth solving?</h2><p>I’m always happy to connect about backend engineering, software design, and opportunities to build useful products.</p><div class="contact-links"><a class="btn primary" href="mailto:vaibhavpandey999@gmail.com">Email me ↗</a><a class="btn secondary" href="https://github.com/Vaibhavpandey999" target="_blank" rel="noreferrer">GitHub ↗</a><a class="btn secondary" href="https://leetcode.com/" target="_blank" rel="noreferrer">LeetCode ↗</a></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><span>© <span id="year"></span> Vaibhav Pandey. Built with care.</span><a href="#top">Back to top ↑</a></div></footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    const menuButton = document.getElementById("menu");
+    const header = document.querySelector(".nav");
+    menuButton.addEventListener("click", () => {
+      const isOpen = header.classList.toggle("open");
+      menuButton.setAttribute("aria-expanded", String(isOpen));
+    });
+    document.querySelectorAll("nav a").forEach(link => link.addEventListener("click", () => {
+      header.classList.remove("open");
+      menuButton.setAttribute("aria-expanded", "false");
+    }));
+  </script>
+</body>
+</html>
