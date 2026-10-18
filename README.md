@@ -15,6 +15,12 @@ No build tools or dependencies are required. Open `index.html` in your browser.
 
    https://vaibhavpandey999.github.io/Personal-Portfolio/
 
+## Featured projects
+
+- [Employee Management System](https://github.com/Vaibhavpandey999/employee-management-system) — full-stack CRUD application using Angular 13, Spring Boot, Spring Data JPA, and MySQL.
+- [LeetCode Solutions](https://github.com/Vaibhavpandey999/LeetCode-Solutions) — coding practice and algorithm solutions.
+- [Low-Level Design Problems](https://github.com/Vaibhavpandey999/Low-Level-Design-Problems) — object-oriented design and software design practice.
+
 ## Customize
 
 Update the content in `index.html` to keep role descriptions, experience, links, skills, and project details current.
